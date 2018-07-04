@@ -1,6 +1,18 @@
 <template>
 <div id="app">
-  <h1>{{ msg }}</h1>
+  <!-- <h1></h1>
+
+
+   -->
+  <v-app>
+    <v-content>
+      <v-btn color="success">{{message}}</v-btn>
+    </v-content>
+  </v-app>
+
+  <v-slider></v-slider>
+
+
 </div>
 </template>
 
@@ -9,14 +21,12 @@ export default {
   name: 'app',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App!'
+      message: 'Welcome this is Vuetify  Parcel'
     }
   }
 }
 </script>
 
-<style lang="css">
-  #app {
-    color: #56b983;
-  }
+<style lang="scss">
+
 </style>

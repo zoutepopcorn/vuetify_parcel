@@ -1,0 +1,24 @@
+{
+  "name": "vuetify_parcel",
+  "version": "1.0.0",
+  "description": "``` npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vuetify": "^1.1.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.9.4",
+    "parcel-plugin-vue": "^1.5.0",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
