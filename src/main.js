@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import routes from './routes'
+// import routes from './routes'
 import VueRouter from 'vue-router'
 import Vuetify from 'vuetify'
 import App from './App.vue'
@@ -11,9 +11,10 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   routes: [{
-    path: '/route-one',
+    path: '/test',
     component: Test
   }]
+
 });
 
 new Vue({
